@@ -1,41 +1,24 @@
-#include <stdio.h>
+#include "main.h"
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
 
-	int main(void)
-	{
-	int i;
+int main(void)
+{
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
 
-	for (i = 0; i < 8; i++)
-	{
-	putchar ('_');
-	for (i = 0; i < 7; i++)
-	{
-	putchar('p');
-	for (i = 0; i < 6; i++)
-	{
-	putchar('u');
-	for (i = 0; i < 5; i++)
-	{
-	putchar('t');
-	for (i = 0; i < 4; i++)
-	{
-	putchar('c');
-	for (i = 0; i < 3; i++)
-	{
-	putchar('h');
-	for (i = 0; i < 2; i++)
-	{
-	putchar('a');
-	for (i = 0; i < 1; i++)
-	{
-	putchar('r');
-	}
-	}
-	}
-	}
-	}
-	}
-	}
-	}
-	putchar(10);
+	_putchar(10);
+
 	return (0);
 }
+
+
