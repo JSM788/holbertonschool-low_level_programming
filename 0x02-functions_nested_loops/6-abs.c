@@ -18,7 +18,7 @@ int _abs(int c)
 	else
 	{
 	if (c < 0)
-	}
+	{
 		toreturn = -1 * c;
 	}
 	else
