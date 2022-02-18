@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * *_strcat - add a string to another string
- * @dest: character
- * @src: character
+ * reverse_array - add a string to another string
+ * @n: character
+ * @a: character
  * Return: 0
  */
 
