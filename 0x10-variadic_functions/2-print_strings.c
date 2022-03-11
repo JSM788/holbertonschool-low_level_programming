@@ -22,7 +22,10 @@ void print_strings(const char *separator, const unsigned int n, ...)
 		if (cadena == NULL)
 			cadena = "(nil)";
 
-		else if (separator == NULL || i == 0)
+		if (separator == NULL)
+			printf("%s", cadena);
+
+		else if (i == 0)
 			printf("%s", cadena);
 
 		else
